@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.root {
+    overflow: hidden;
+}
+
+header .top {
+    padding-top: 50px !important;
+}
+
+header .brandImage {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+    padding-top: 110px;
+}
+
+header .brandImage .one {
+
+    width: 47% !important;
+    padding-top: 185px;
+    margin: auto;
+}
+
+header .brandImage .two {
+
+    width: 7% !important;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+header .top .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .top .nav a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #201F1E;
+    padding: 10px 15px 0px 15px;
+    text-align: center;
+}
+
+header .top .nav .fas {
+    color: #201F1E;
+    padding: 15px 30px 0px 10px;
+}
+
+header .top .firstP {
+    padding-top: 203px;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 65px;
+    color: #201F1E;
+
+
+}
+
+header .top .secondP {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 163%;
+    color: #8A8A8A;
+
+}
+
+header .top form input {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(9, 103, 38, 0.1);
+    margin-bottom: 350px;
+    margin-top: 90px;
+    padding: 25px 150px 25px 20px;
+}
+
+header .top form input:focus-visible {
+    overflow: hidden;
+}
+
+header .top form input:placeholder-shown {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #d1d1d1 !important;
+}
+
+header .top form .button {
+    background: #0A7F2E;
+    border: none;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 25px 30px 25px 20px;
+}
+
+header .top .boshsahifa {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BBBBBB;
+
+}
+
+header .half {
+
+    width: 50% !important;
+    background: #1cc448;
+    background: linear-gradient(17deg, #1cc448 0%, #195927 80%);
+    background: -webkit-linear-gradient(17deg, #1cc448 0%, #195927 80%);
+    background: -moz-linear-gradient(17deg, #1cc448 0%, #195927 80%);
+}
+
+header .headTop {
+    margin: auto;
+    text-align: right;
+    padding-top: 50px;
+}
+
+header .headTop .rightTop .fas {
+    color: white;
+    font-size: 18px;
+    padding: 0px 45px;
+}
+
+header .headTop .rightTop .callNumber {
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+}
+
+header .headTop .rightTop .rightButton {
+    background: transparent;
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 15px 35px;
+}
+
+header .carousel {
+    margin: auto;
+}
+
+.carousel .thumb {
+    display: none !important;
+}
+
+.carousel .slide img {
+    width: 74% !important;
+    padding-top: 135px !important;
+}
+
+
+
+.carousel .control-dots .dot {
+
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 0% !important;
+}
+
+.carousel .carousel-status {
+    display: none !important;
+}
+
+header .mainP {
+    margin-left: 90px;
+}
+
+header .mainP p {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+header .mainP p .border {
+    border-top: 1px solid rgb(255, 255, 255) !important;
+
+}
+
+header .mainP p span {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+@media (max-width:1199px) {
+    header .top form input {
+        padding-right: 0px;
+    }
+
+    header .top .img {
+        width: 40%;
+    }
+
+    header .top .img img {
+        width: 100%;
+    }
+
+    header .top .nav a {
+        padding: 0px 4px;
+        font-size: 12px;
+    }
+
+    header .top .nav .fas {
+        font-size: 12px;
+        padding: 5px 30px 0px 10px;
+    }
+
+    header .top .firstP {
+        padding-top: 80px;
+        font-size: 28px;
+        line-height: 55px;
+    }
+
+    header .top .secondP {
+
+        font-size: 15px;
+        line-height: 145%;
+
+    }
+
+    header .top form input {
+        margin-bottom: 200px;
+
+    }
+
+    header .headTop .rightTop {
+        display: flex;
+    }
+
+    header .headTop .rightTop {
+        align-items: baseline;
+    }
+
+    header .headTop .rightTop .callNumber {
+        font-size: 14px;
+
+    }
+
+    header .top {
+        padding-top: 63px !important;
+    }
+    header .top .bars {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    header .half {
+        width: 100% !important;
+
+    }
+
+    header .top .nav a {
+        padding: 0px 4px;
+        font-size: 20px;
+    }
+
+    header .brandImage .one {
+        width: 30% !important;
+        padding-top: 94px;
+        margin: auto;
+    }
+
+    header .headTop .rightTop {
+        display: block;
+    }
+    header .top .nav {
+        display: block;
+    }
+
+    header .top .bars {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    header .top .nav {
+        display: none;
+    }
+
+    header .top .bars {
+        display: block;
+        color: black;
+        font-size: 20px;
+    }
+}
+@media (max-width:575px){
+
+header .brandImage{
+    display: none;
+}
+
+header .top form input {
+    margin-bottom: 50px;
+    margin-top: 39px;
+}
+header .top .boshsahifa {
+    font-size: 16px;
+}
+header .carousel {
+   display: none;
+}
+header .headTop .rightTop {
+  
+    text-align: center;
+}
+
+
+header .headTop .rightTop .rightButton{
+    margin-top: 20px;
+    margin-bottom: 50px;    
+}
+
+header .top .firstP {
+    padding-top: 80px;
+    font-size: 24px;
+    line-height: 48px;
+}
+header .top .img {
+    width: 60%;
+}
+}
